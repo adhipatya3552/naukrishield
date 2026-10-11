@@ -4,23 +4,27 @@ import re
 from dotenv import load_dotenv
 
 load_dotenv()
-try:
-    import neatlogs
-    neatlogs.init()
-except Exception:
-    pass
+
+import neatlogs
+
+neatlogs.init(
+    api_key=os.environ["NEATLOGS_API_KEY"],
+    workflow_name="naukrishield-investigation",
+)
 
 from openai import OpenAI
 from crustdata_tool import company_lookup, people_lookup
 
-client = OpenAI(
+client = neatlogs.wrap(OpenAI(
     base_url="https://litellm.vision.aivar.app/v1",
     api_key=os.environ["LITELLM_API_KEY"],
-)
+))
 MODEL = "claude-haiku"
 
 FREE_MAIL = {"gmail.com", "yahoo.com", "hotmail.com", "outlook.com"}
 
+
+@neatlogs.span(kind="AGENT", name="extract")
 def extract(text: str) -> dict:
     r = client.chat.completions.create(
         model=MODEL,
@@ -37,6 +41,8 @@ def extract(text: str) -> dict:
     except Exception:
         return {"raw": raw}
 
+
+@neatlogs.span(kind="TOOL", tool_name="domain_check")
 def domain_check(domain: str, company: str):
     if not domain:
         return {"flag": False, "note": "no sender domain found -> cannot verify sender"}
@@ -47,12 +53,16 @@ def domain_check(domain: str, company: str):
         return {"flag": True, "note": f"domain {d} does not match claimed company {company}"}
     return {"flag": False, "note": f"domain {d} looks consistent"}
 
+
+@neatlogs.span(kind="TOOL", tool_name="upi_check")
 def upi_check(text: str, facts: dict):
     upi = facts.get("upi") or ("upi" in text.lower() and "found-in-text" or "")
     if facts.get("asks_advance") and upi:
         return {"flag": True, "note": "upfront payment via UPI demanded — top job-scam signal in India"}
     return {"flag": False, "note": "no upfront UPI demand detected"}
 
+
+@neatlogs.span(kind="WORKFLOW")
 def investigate(offer_text: str, max_steps=6):
     evidence, steps = [], []
     facts = extract(offer_text)
@@ -109,6 +119,8 @@ def investigate(offer_text: str, max_steps=6):
         verdict = "NO STRONG RED FLAGS FOUND IN CHECKS PERFORMED"
     return {"verdict": verdict, "score": score, "reasons": reasons, "facts": facts, "evidence": evidence, "steps": steps}
 
+
+@neatlogs.span(kind="AGENT", name="hindi_report")
 def hindi_report(inv: dict) -> str:
     r = client.chat.completions.create(
         model=MODEL,
@@ -118,6 +130,7 @@ def hindi_report(inv: dict) -> str:
         ],
     )
     return r.choices[0].message.content
+
 
 if __name__ == "__main__":
     import sys
@@ -129,3 +142,5 @@ if __name__ == "__main__":
         print("-", x)
     print("\n--- HINDI REPORT ---\n")
     print(hindi_report(inv))
+    neatlogs.flush()
+    neatlogs.shutdown()

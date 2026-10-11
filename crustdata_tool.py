@@ -7,6 +7,18 @@ import urllib.parse
 
 DB = "crustdata_cache.db"
 
+try:
+    import neatlogs
+except Exception:
+    neatlogs = None
+
+def _span(kind="TOOL", tool_name="crustdata"):
+    if neatlogs is None:
+        def deco(fn):
+            return fn
+        return deco
+    return neatlogs.span(kind=kind, tool_name=tool_name)
+
 def _db():
     con = sqlite3.connect(DB)
     con.execute("CREATE TABLE IF NOT EXISTS cache (k TEXT PRIMARY KEY, v TEXT)")
@@ -39,6 +51,7 @@ def _api(path, payload):
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read().decode())
 
+ @_span(tool_name="crustdata_company")
 def company_lookup(company: str):
     ck = f"company:{company.lower()}"
     hit = _get(ck)
@@ -55,6 +68,7 @@ def company_lookup(company: str):
     _put(ck, out)
     return out
 
+ @_span(tool_name="crustdata_people")
 def people_lookup(name: str):
     ck = f"people:{name.lower()}"
     hit = _get(ck)
