@@ -4,80 +4,106 @@ STEPS: ['extract', 'crustdata_company', 'crustdata_people']
 - sender domain issue (+25): free-mail sender gmail.com, official hiring uses company domain
 - UPI advance pattern (+15)
 - urgency pressure (+10)
+- company identity UNABLE TO VERIFY (missing data is not proof of fraud)
 
 --- HINDI REPORT ---
 
-# ≡ƒÜ¿ αñ¿αÑîαñòαñ░αÑÇ αñºαÑïαñûαñ╛αñºαñíαñ╝αÑÇ αñÜαÑçαññαñ╛αñ╡αñ¿αÑÇ / Job Fraud Alert
+# ⚠️ जॉब स्कैम अलर्ट रिपोर्ट | Job Scam Alert Report
 
 ---
 
-## **αñ╡αñ┐αñ╢αÑìαñ▓αÑçαñ╖αñú αñ¬αñ░αñ┐αñúαñ╛αñ« / Analysis Result**
+## **हिंदी सारांश (Hindi Summary)**
 
-**αñûαññαñ░αÑç αñòαñ╛ αñ╕αÑìαññαñ░: αñàαññαÑìαñ»αñºαñ┐αñò (HIGH RISK) - 90/100**
+**यह संदेश संभवतः धोखाधड़ी है।** इंफोसिस जैसी बड़ी कंपनी कभी भी:
+- Gmail से ईमेल नहीं भेजती (सिर्फ official domain का उपयोग करती है)
+- नौकरी देने से पहले UPI/advance पैसे नहीं मांगती
+- shortened links (bit.ly) से आवेदन नहीं करवाती
 
-| αñ╕αñéαñòαÑçαññ / Red Flag | αñ╡αñ┐αñ╡αñ░αñú / Detail |
-|---|---|
-| **αñêαñ«αÑçαñ▓ αñíαÑïαñ«αÑçαñ¿** | `hr-infosys2026@gmail.com` Γ¥î (αñçαñéαñ½αÑïαñ╕αñ┐αñ╕ official αñ╣αÑê `@infosys.com`) |
-| **UPI αñûαñ╛αññαñ╛** | `infosys-hr@okhdfc` ΓÇö αñàαñùαÑìαñ░αñ┐αñ« αñ¡αÑüαñùαññαñ╛αñ¿ αñ«αñ╛αñüαñù (αñ╢αÑÇαñ░αÑìαñ╖ αñÿαÑïαñƒαñ╛αñ▓αñ╛ αñ╕αñéαñòαÑçαññ) |
-| **αñ£αñ▓αÑìαñªαñ¼αñ╛αñ£αÑÇ αñªαñ¼αñ╛αñ╡** | αññαÑüαñ░αñéαññ αñ¬αÑêαñ╕αÑç αñ¡αÑçαñ£αñ¿αÑç αñòαÑç αñ▓αñ┐αñÅ αñòαñ╣αñ╛ αñùαñ»αñ╛ |
-| **αñ╕αñéαñòαÑìαñ╖αñ┐αñ¬αÑìαññ URL** | `bit.ly/infosys-apply-2026` ΓÇö αñàαñ╕αñ▓αÑÇ αñòαñéαñ¬αñ¿αÑÇ direct αñ▓αñ┐αñéαñò αñªαÑçαññαÑÇ αñ╣αÑê |
+**खतरे के संकेत:**
+1. ✗ Advance payment demand (+40 points)
+2. ✗ Gmail domain (official नहीं) (+25 points)
+3. ✗ UPI payment request (+15 points)
+4. ✗ जल्दी decide करने का दबाव (+10 points)
 
 ---
 
 ## **English Summary**
 
-**This is extremely likely a scam.** The fraudster is impersonating Infosys HR. Real Infosys uses:
-- Official email domain: `@infosys.com`
-- No advance payments for job offers
-- No pressure tactics
+**This appears to be a HIGH RISK job scam (90/100).** Multiple red flags indicate potential fraud:
 
-**Key fraud indicators:**
-- Γ£ï Gmail account for "official" HR
-- Γ£ï UPI demand before joining
-- Γ£ï Shortened link (phishing risk)
-- Γ£ï Salary offer unrealistically fast
+| Red Flag | Evidence |
+|----------|----------|
+| **Advance Payment** | UPI `infosys-hr@okhdfc` requesting upfront funds |
+| **Wrong Domain** | Gmail account (`hr-infosys2026@gmail.com`) instead of `@infosys.com` |
+| **Shortened URL** | `bit.ly/infosys-apply-2026` hides actual destination |
+| **Artificial Urgency** | Pressure to decide quickly |
 
 ---
 
-## **≡ƒ¢í∩╕Å αñòαÑìαñ»αñ╛ αñòαñ░αÑçαñé / What To Do NOW**
+## **क्या आपने पैसे भेजे हैं? (Did You Send Money?)**
 
-### αñàαñùαñ░ αñ¬αÑêαñ╕αÑç αñ¡αÑçαñ£ αñÜαÑüαñòαÑç αñ╣αÑêαñé / If Money Already Sent:
+### **अगर हाँ / If YES:**
 
-1. **αññαÑüαñ░αñéαññ αñ░αñ┐αñ¬αÑïαñ░αÑìαñƒ αñòαñ░αÑçαñé:**
-   - ≡ƒöù **https://cybercrime.gov.in**
-   - ΓÿÄ∩╕Å **αñ╣αÑçαñ▓αÑìαñ¬αñ▓αñ╛αñçαñ¿: 1930** (24/7 India)
-   - FIR αñªαñ░αÑìαñ£ αñòαñ░αÑçαñé αñàαñ¬αñ¿αÑç αñ¿αñ£αñªαÑÇαñòαÑÇ αñÑαñ╛αñ¿αÑç αñ«αÑçαñé
-
-2. **αñàαñ¬αñ¿αÑç αñ¼αÑêαñéαñò αñòαÑï αñ╕αÑéαñÜαñ┐αññ αñòαñ░αÑçαñé** (αñºαñ¿αñ╡αñ╛αñ¬αñ╕αÑÇ αñòαÑÇ αñ╕αñéαñ¡αñ╛αñ╡αñ¿αñ╛ αñòαñ« αñ╣αÑê, αñ¬αñ░ αñòαÑïαñ╢αñ┐αñ╢ αñòαñ░αÑçαñé)
-
-### αñàαñùαñ░ αñàαñ¡αÑÇ αñ¿αñ╣αÑÇαñé αñ¡αÑçαñ£αÑç αñ╣αÑêαñé / If Money NOT Sent:
-
-Γ£à **αñêαñ«αÑçαñ▓ Delete αñòαñ░αÑçαñé**
-Γ£à **UPI αñòαÑç αñ▓αñ┐αñÅ αñ¬αÑêαñ╕αÑç αñ¡αÑçαñ£αÑçαñé αñ¿αñ╣αÑÇαñé**
-Γ£à **Bit.ly αñ▓αñ┐αñéαñò αñ¬αñ░ αñòαÑìαñ▓αñ┐αñò αñ¿ αñòαñ░αÑçαñé**
-Γ£à **Infosys αñòαÑÇ official αñ╡αÑçαñ¼αñ╕αñ╛αñçαñƒ αñ╕αÑç contact αñòαñ░αÑçαñé** (careers.infosys.com)
+**तुरंत रिपोर्ट करें / Report immediately:**
+- 📱 **Cybercrime Portal:** https://cybercrime.gov.in
+- ☎️ **Helpline:** **1930** (toll-free, 24/7)
+- ⚙️ **UPI Details share:** Screenshot + transaction ID + UPI handle
 
 ---
 
-## **Complaint Draft Outline / αñ╢αñ┐αñòαñ╛αñ»αññ αñòαñ╛ αñ¬αÑìαñ░αñ╛αñ░αÑéαñ¬**
+## **अगर नहीं / If NO - Safe Next Steps:**
 
+✅ **तुरंत करें (Do Now):**
+1. इस ईमेल को **delete/ignore** करें
+2. UPI handle को **block** करें
+3. Infosys की **official website** (infosys.com) → Careers पर जाएं
+4. वहाँ से सीधे apply करें
+
+✅ **जांचें (Verify):**
 ```
-Subject: Job Recruitment Scam ΓÇö Impersonation of Infosys
-
-Details:
-- Fraudulent Email: hr-infosys2026@gmail.com
-- Fake UPI: infosys-hr@okhdfc
-- Salary Offered: Γé╣45,000/month
-- Advance Demanded: [Amount] via UPI
-- Date Received: [Date]
-- Link: bit.ly/infosys-apply-2026
-
-Action Requested: Block UPI account, trace sender IP
+Infosys HR का सही Email: careers@infosys.com
+Recruitment Site: infosys.com/careers
 ```
 
+✅ **भविष्य के लिए (Future Protection):**
+- कभी भी advance payment job के लिए न दें
+- सरकारी मेल domain से verify करें
+- bit.ly/tinyurl जैसे shortened links से बचें
+
 ---
 
-**ΓÜá∩╕Å Note:** αñ╣αñ« 100% αñ¿αñ┐αñ╢αÑìαñÜαñ┐αññ αñ¿αñ╣αÑÇαñé αñ╣αÑï αñ╕αñòαññαÑç, αñ¬αñ░ αñ╕αñ¡αÑÇ αñ╕αñéαñòαÑçαññ αñºαÑïαñûαñ╛αñºαñíαñ╝αÑÇ αñòαÑÇ αñôαñ░ αñçαñ╢αñ╛αñ░αñ╛ αñòαñ░αññαÑç αñ╣αÑêαñéαÑñ / We cannot claim 100% certainty, but all signs strongly indicate a scam.
+## **Complaint Draft Outline** 📋
 
-**Stay safe. Verify. Never send money for job offers.** ≡ƒ¢í∩╕Å
-2026-10-11 21:48:33 - neatlogs - INFO - Neatlogs SDK shutdown complete
+```
+TO: cybercrime.gov.in या Cyber Cell, [आपका शहर]
+
+SUBJECT: Job Scam - Impersonation of Infosys, UPI Fraud Attempt
+
+DETAILS:
+- Scam Date: [आज की तारीख]
+- Fraudster Email: hr-infosys2026@gmail.com
+- Company Impersonated: Infosys Limited
+- Fraudulent UPI: infosys-hr@okhdfc
+- Fake Link: bit.ly/infosys-apply-2026
+- Amount Demanded: ₹[advance amount, if mentioned]
+- Your Loss: ₹[actual amount sent, if any]
+
+ACTION TAKEN:
+☐ Money sent (Attach proof: screenshot, transaction ID)
+☐ Money not sent, reporting to prevent others
+
+REQUEST: 
+- UPI account block करें
+- Email block करें
+- Investigation initiate करें
+```
+
+---
+
+## **Final Verdict** 🚨
+
+**यह स्कैम है। पैसे न भेजें।**  
+*This is likely a scam. Do not send money.*
+
+**Confidence:** High (90/100) — लेकिन 100% निश्चितता नहीं / but not absolute certainty.
+2026-10-12 11:42:20 - neatlogs - INFO - Neatlogs SDK shutdown complete

@@ -33,7 +33,7 @@ Attach: Pic B
 NaukriShield economics via @cfo_ai:
 Rs 26.68L Y1, 92.4% margin, 45-cafe breakeven
 Rs 499/mo cyber-cafe hero plan
-Repo: <PASTE YOUR GITHUB LINK>
+Repo: https://github.com/adhipatya3552/naukrishield
 Demo video coming tonight #neatHack
 ```
 Attach: Pic C
