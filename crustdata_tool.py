@@ -51,7 +51,7 @@ def _api(path, payload):
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read().decode())
 
- @_span(tool_name="crustdata_company")
+@_span(tool_name="crustdata_company")
 def company_lookup(company: str):
     ck = f"company:{company.lower()}"
     hit = _get(ck)
@@ -68,7 +68,7 @@ def company_lookup(company: str):
     _put(ck, out)
     return out
 
- @_span(tool_name="crustdata_people")
+@_span(tool_name="crustdata_people")
 def people_lookup(name: str):
     ck = f"people:{name.lower()}"
     hit = _get(ck)
